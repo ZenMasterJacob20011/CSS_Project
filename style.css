@@ -1,0 +1,95 @@
+/* body{
+    background: red;
+} */
+
+/* .title{
+    color: red;
+}
+
+.subtitle{
+    color: blue;
+}
+
+#contact-us{
+    color: green;
+} */
+
+h2:hover{
+    color: red;
+}
+
+.about-me{ /*this is a class selector*/
+    color: blue;
+}
+
+/* # is a id selector */
+
+li:first-child{
+    color: steelblue;
+}
+li:last-child{
+    color: red;
+}
+li:nth-child(2){
+    color: green;
+}
+
+/* li:only-child{
+    color: purple;
+} */
+
+/* #google-link:link{
+    color: blue;
+}
+#google-link:visited{
+    color: red;
+} */
+
+h2 + a {  /*selects an a tag that is after an h2 tag*/
+    color: red;
+}
+
+textarea ~ button{ /*selects the button tag that is after an textarea tag and in the same parent*/
+    color: purple;
+}
+
+ul > li { /*All children insiide ul*/
+    color: blue;
+}
+
+ul li { /*Everything inside ul*/
+    color: green;
+}
+
+h2[class=subtitle]{
+    color: blue;
+}
+
+/* img[src="../img/"]{ select all img tags that are in the file img
+
+} */
+
+/* img[src$="../img/"]{ select all img tags that have the ending img
+
+} */
+
+/* img[src*="../img/"]{ select all img tags that have that anywhere
+
+} */
+
+h2[class~=about-me]{ /*used for selection of multiclass*/
+    background: green;
+}
+
+/* h2[class|=about-me]{ ???
+    background: green;
+} */
+
+#services /*this is a selector*/{
+    color: green; /*This is a property followed by a value*/
+}
+
+/* selector{
+    property: value;
+    property2: value2;
+} */

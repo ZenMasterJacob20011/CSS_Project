@@ -1,0 +1,86 @@
+body{
+    /* background: rgb(204, 238, 247); */
+    /* background: url("https://media.istockphoto.com/photos/mount-hood-oregon-picture-id1268487061?b=1&k=20&m=1268487061&s=170667a&w=0&h=3fHYwaImlqUETcjCnSV7YO2-PzCFvaX6VSQaiGfWqpc="); */
+    /* background: url(img-1.jpg); */
+    background: linear-gradient(to bottom, rgb(204,229,255),rgba(204,229,255,0.4));
+    /* font-size: 2cm; */
+    /* text-transform: capitalize; */
+    /* text-align: center; */
+    text-align: justify;
+    font-size: 1.15em;
+    font-family: "Times New Roman", sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+}
+
+#title{
+    color: rgb(182, 130, 17);
+    font-family: sans-serif;
+}
+
+.subtitle{
+    color: rgb(200, 130, 25);
+}
+
+#service-image{
+    height: 400px;
+    width: 70%;
+    /* width: 70vw; */
+    /* background: url("img-2.jpg");
+    background-size: cover;
+    background-color: red; */
+    /* background: linear-gradient(to right, red,green,steelblue,blue);
+    background-size: cover; */
+    /* background: radial-gradient(red 20%,blue 40%); */
+    background: radial-gradient(circle, red, blue, green);
+    /* border: size style color; */
+    border: 8px solid rgb(154, 174, 200);
+    /* float: right; */
+
+}
+
+.link{
+    /* text-decoration: none; */
+    text-decoration: underline;
+    /* text-decoration: line-through; */
+    /* text-decoration: overline; */
+}
+
+.italics{
+    font-style: italic;
+}
+
+#about-us-image{
+    height: 300px;
+    width: 60%;
+    border: 6px solid rgb(28, 28, 79);
+    /* padding: 20px; */
+    /* margin: 40px; */
+    /* padding-right: 40px; */
+    /* padding: 100px 40px 5px 0px; */
+    /* margin: 80px 40px; top/bottom left/right*/
+    margin: 80px 40px;
+    float: right;
+}
+
+.siite-table{
+    display: none;
+}
+
+.container{
+    background-color: rgb(250, 250, 250);
+    margin: 10px;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+}
+
+.container-item{
+    background: rgb(36, 130, 39);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 70px;
+    line-height: 50px;
+    margin: 10px;
+}
